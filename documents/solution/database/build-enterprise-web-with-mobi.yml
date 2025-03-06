@@ -286,72 +286,101 @@ Resources:
     DependsOn:
       - Account
       - DbBase
-  RandomString:
-    Type: ALIYUN::RandomString
-    Properties:
-      length: 7
-      character_classes:
-        - class: lowercase
-          min: 1
-        - class: digits
-          min: 1
   Mobi:
-    Type: ALIYUN::MOBI::App
+    Type: ALIYUN::ROS::Stack
     Properties:
-      AppName:
-        Fn::Sub: test_${RandomString.value}
-      AppIcon: -1
-      AppWorkspaceId:
-        Ref: WorkspaceId
-      AppType: Web
-      Template:
-        TemplateId: e1e78223-38c4-4184-972c-ac0eead93e11
-        ConnectionsContent:
-          Fn::Sub:
-            - |-
-              [
-                {
-                  "name": "企业官网模板_${RandomString.value}",
-                  "connectorType": {
-                    "kind": "mysql",
-                    "name": "mysql"
-                  },
-                  "folderId": "/",
-                  "resourceRequirementId": "7dfe969b-1d54-4cbc-a8fd-209000b30ad0",
-                  "resourceObject": {
-                    "version": "1.0",
-                    "id": "7dfe969b-1d54-4cbc-a8fd-209000b30ad0",
-                    "name": "企业官网模板_20241203160633",
-                    "type": "sql",
-                    "subType": "mysql",
-                    "connectionTemplates": {
-                      "dev": {
-                        "host": "${PublicConnectionString}",
-                        "port": 3306,
-                        "database": "${DbName}",
-                        "username": "${DbUserName}",
-                        "password": "${DbPassword}"
-                      },
-                      "product": {
-                        "host": "${PublicConnectionString}",
-                        "port": 3306,
-                        "database": "${DbName}",
-                        "username": "${DbUserName}",
-                        "password": "${DbPassword}"
-                      }
-                    }
-                  }
-                }
-              ]
-            - PublicConnectionString:
-                Fn::If:
-                  - CreateRds
-                  - Fn::GetAtt:
-                      - RdsDBInstance
-                      - PublicConnectionString
-                  - Fn::GetAtt:
-                      - Connection
-                      - ConnectionString
+      Parameters:
+        WorkspaceId:
+          Ref: WorkspaceId
+        DbName:
+          Ref: DbName
+        DbUserName:
+          Ref: DbUserName
+        DbPassword:
+          Ref: DbPassword
+        PublicConnectionString:
+          Fn::If:
+            - CreateRds
+            - Fn::GetAtt:
+                - RdsDBInstance
+                - PublicConnectionString
+            - Fn::GetAtt:
+                - Connection
+                - ConnectionString
+      TemplateBody:
+        ROSTemplateFormatVersion: '2015-09-01'
+        Parameters:
+          WorkspaceId:
+            Type: String
+          PublicConnectionString:
+            Type: String
+          DbName:
+            Type: String
+          DbUserName:
+            Type: String
+          DbPassword:
+            Type: String
+
+        Resources:
+          RandomString:
+            Type: ALIYUN::RandomString
+            Properties:
+              length: 7
+              character_classes:
+                - class: lowercase
+                  min: 1
+                - class: digits
+                  min: 1
+          Mobi:
+            Type: ALIYUN::MOBI::App
+            Properties:
+              AppName:
+                Fn::Sub: test_${RandomString.value}
+              AppIcon: -1
+              AppWorkspaceId:
+                Ref: WorkspaceId
+              AppType: Web
+              Template:
+                TemplateId: e1e78223-38c4-4184-972c-ac0eead93e11
+                ConnectionsContent:
+                  Fn::Sub:
+                    - |-
+                      [
+                        {
+                          "name": "企业官网模板_${RandomString.value}",
+                          "connectorType": {
+                            "kind": "mysql",
+                            "name": "mysql"
+                          },
+                          "folderId": "/",
+                          "resourceRequirementId": "7dfe969b-1d54-4cbc-a8fd-209000b30ad0",
+                          "resourceObject": {
+                            "version": "1.0",
+                            "id": "7dfe969b-1d54-4cbc-a8fd-209000b30ad0",
+                            "name": "企业官网模板_20241203160633",
+                            "type": "sql",
+                            "subType": "mysql",
+                            "connectionTemplates": {
+                              "dev": {
+                                "host": "${PublicConnectionString}",
+                                "port": 3306,
+                                "database": "${DbName}",
+                                "username": "${DbUserName}",
+                                "password": "${DbPassword}"
+                              },
+                              "product": {
+                                "host": "${PublicConnectionString}",
+                                "port": 3306,
+                                "database": "${DbName}",
+                                "username": "${DbUserName}",
+                                "password": "${DbPassword}"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    - PublicConnectionString:
+                        Ref: PublicConnectionString
 Outputs:
   MobiUrl:
     Description:
