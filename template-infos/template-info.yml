@@ -5,7 +5,7 @@ AnalyticDB-and-Bailian-system:
     en: AnalyticDB and Bailian build intelligent question and answer system.
     zh-cn: AnalyticDB与百炼搭建智能问答系统。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/AnalyticDB-and-Bailian-system/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/AnalyticDB-and-Bailian-system/icon.svg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/AnalyticDB-and-Bailian-system/icon.png
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -53,7 +53,7 @@ Nginx-access-log-data-archive:
       establish indexing, and automate the archiving of these logs to OSS storage.
     zh-cn: 创建ECS实例与安全组，配置Nginx并生成访问日志，通过Logtail收集日志至SLS项目与日志库，设置索引，并自动归档至OSS存储。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/Nginx-access-log-data-archive/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/Nginx-access-log-data-archive/icon.jpeg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/Nginx-access-log-data-archive/icon.png
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -107,7 +107,7 @@ accelerate-static-website:
       of website static resources.
     zh-cn: 创建OSS存储桶、CDN加速域名，配置跨域访问与图片优化，实现网站静态资源全球加速。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/accelerate-static-website/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/accelerate-static-website/icon.svg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/accelerate-static-website/icon.png
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -191,7 +191,7 @@ add-signatures-on-server-configure-upload-callback:
       on Apache.
     zh-cn: 创建VPC、安全组、ECS实例，配置OSS存储桶，实现Python服务端签名的OSS直传及回调，包含ECS初始化脚本与Apache部署。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/add-signatures-on-server-configure-upload-callback/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/add-signatures-on-server-configure-upload-callback/icon.svg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/add-signatures-on-server-configure-upload-callback/icon.png
   Labels:
     ApplicationScenes:
       - 网站
@@ -219,7 +219,7 @@ add-signatures-on-the-client-by-using-JS-and-upload-data:
       and finally upload the file to OSS using this signature.
     zh-cn: 从服务端获取sts token，并使用sts token生成签名，最后使用此签名上传文件到OSS
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/add-signatures-on-the-client-by-using-JS-and-upload-data/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/add-signatures-on-the-client-by-using-JS-and-upload-data/icon.svg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/add-signatures-on-the-client-by-using-JS-and-upload-data/icon.png
   Labels:
     ApplicationScenes:
       - 网站
@@ -356,7 +356,7 @@ aliyun-kafka-instance:
     en: Use this template to create an ALICloud message queue Kafka instance
     zh-cn: 使用此模板创建一台阿里云消息队列Kafka实例
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/aliyun-kafka-instance/README.md
-  Icon: https://img.alicdn.com/imgextra/i4/O1CN0109Avt726MNR2KLaP2_!!6000000007647-2-tps-530-480.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/aliyun-kafka-instance/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -404,7 +404,7 @@ application-business-migration:
     en: 同地域跨可用区容灾的解决方案2.0，以上海地域为例介绍单可用区到跨可用区的迁移及切换演练，以模拟wordpress为初始化的应用服务，帮助客户更清晰地了解方案架构及演练演示；同时提供跨可用区容灾切换演练实验，初始化服务部署可以使用，此模版完成应用业务迁移。
     zh-cn: 同地域跨可用区容灾的解决方案2.0，介绍单可用区到跨可用区的迁移及切换演练，以模拟wordpress为初始化的应用服务，帮助客户更清晰地了解方案架构及演练演示；同时提供跨可用区容灾切换演练实验，初始化服务部署可以使用，此模版完成应用业务迁移。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/application-business-migration/README.md
-  Icon: https://img.alicdn.com/tfs/TB10qAZyQT2gK0jSZFkXXcIQFXa-922-552.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/application-business-migration/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -510,7 +510,7 @@ batch-of-ecs-instances:
       VSW, SG, or new VPC, VSW, SG
     zh-cn: 此模板支持批量创建按量付费或包年包月的ECS实例，并且支持选择已有VPC，VSW，SG或新建VPC，VSW，SG的场景
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/batch-of-ecs-instances/README.md
-  Icon: https://img.alicdn.com/imgextra/i3/O1CN01ewxWpx1IGDHEZTeIJ_!!6000000000865-2-tps-1695-919.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/batch-of-ecs-instances/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -532,7 +532,7 @@ bcs-3rd-generation-gene-sequence-data-assembly:
     en: 本文介绍如何基于批量计算服务提供的WDL-Canu解决方案，进行三代基因组组装的最佳实践。
     zh-cn: 本文介绍如何基于批量计算服务提供的WDL-Canu解决方案，进行三代基因组组装的最佳实践。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/bcs-3rd-generation-gene-sequence-data-assembly/README.md
-  Icon: https://img.alicdn.com/tfs/TB1a5__OEH1gK0jSZSyXXXtlpXa-841-645.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/bcs-3rd-generation-gene-sequence-data-assembly/icon.png
   Labels:
     ApplicationScenes:
       - 生命科学
@@ -620,7 +620,7 @@ business-security-for-e-commerce-sites:
     en: 本实践为云上客户提供完整的电商网站运营期间的防护方案，包括用户注册、业务运营活动等场景。保障业务运维活动系统稳定运行、防止“薅羊毛”、运营优惠给到真实的客户。
     zh-cn: 本实践为云上客户提供完整的电商网站运营期间的防护方案，包括用户注册、业务运营活动等场景。保障业务运维活动系统稳定运行、防止“薅羊毛”、运营优惠给到真实的客户。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/business-security-for-e-commerce-sites/README.md
-  Icon: https://img.alicdn.com/tfs/TB1YVgKyUz1gK0jSZLeXXb9kVXa-1112-632.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/business-security-for-e-commerce-sites/icon.png
   Labels:
     ApplicationScenes:
       - 安全 & 合规
@@ -648,7 +648,7 @@ cdn-speeds-up-distribution-of-file-on-oss:
       caching rules.
     zh-cn: 创建OSS存储桶并启用CDN加速，配置域名解析与优化文件分发策略，支持全球访问与自定义缓存规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cdn-speeds-up-distribution-of-file-on-oss/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cdn-speeds-up-distribution-of-file-on-oss/icon.jpg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cdn-speeds-up-distribution-of-file-on-oss/icon.png
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -670,7 +670,7 @@ cdn-speeds-up-oss-access:
       service, and configure the origin server and DNS resolution records.
     zh-cn: 创建CDN域加速OSS访问，自动开启CDN服务，配置源站及DNS解析记录。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cdn-speeds-up-oss-access/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cdn-speeds-up-oss-access/icon.svg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cdn-speeds-up-oss-access/icon.png
   Labels:
     ApplicationScenes:
       - 网站
@@ -697,7 +697,7 @@ cen-open-isolated-networks:
       the production and
     zh-cn: 三个VPC1与VPC2、VPC3，允许VPC1、VPC2都能够访问VPC3，但VPC1与VPC2之间不通。示例场景是生产与预发VPC不通，但运维VPC需要连通生产、预发环境。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cen-open-isolated-networks/README.md
-  Icon: https://img.alicdn.com/imgextra/i1/O1CN01wredUJ1p61t0KIRti_!!6000000005310-2-tps-740-393.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cen-open-isolated-networks/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -836,7 +836,7 @@ cloud-native-enterprise-data-lake:
       data processing and storage capabilities.
     zh-cn: 创建一个包含EMR集群的大数据分析环境，搭配OSS存储与VPC安全配置，支持云上数据处理与存储。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cloud-native-enterprise-data-lake/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cloud-native-enterprise-data-lake/icon.jpeg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cloud-native-enterprise-data-lake/icon.png
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -918,7 +918,7 @@ compute-nest-on-premises-solution-sag:
       CEN, VPC, ECS
     zh-cn: 计算巢的云下服务上云能力实现，可以保证云服务商的云下服务能力上云，通过集成SAG、CCN、CEN、VPC、ECS等云产品，自动化实现云下网络同云上VPC互联，天然跟计算巢当前的虚拟互联网融合，通过终端节点的方式提供给跨VPC、跨用户访问云下服务的能力
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/compute-nest-on-premises-solution-sag/README.md
-  Icon: https://img.alicdn.com/imgextra/i2/O1CN01I2Wyb11xAcma3jpru_!!6000000006403-2-tps-2536-1156.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/compute-nest-on-premises-solution-sag/icon.png
   Labels:
     ApplicationScenes:
       - 业务上云
@@ -947,7 +947,7 @@ container-application-devops-for-ack-cluster:
     en: DevOps的目的是构建一种文化和环境，使构建，测试，发布软件更加快捷，频繁和可靠 。 而到了容器时代，需要部署的机器不但量更大，变化更剧烈，有的甚至需要根据条件自动升缩，为了满足企业敏捷的需求，持续部署也成了必须，本方案使用云效完成容器应用（小程序后端服务）的自动化构建和持续部署。
     zh-cn: DevOps的目的是构建一种文化和环境，使构建，测试，发布软件更加快捷，频繁和可靠 。 而到了容器时代，需要部署的机器不但量更大，变化更剧烈，有的甚至需要根据条件自动升缩，为了满足企业敏捷的需求，持续部署也成了必须，本方案使用云效完成容器应用（小程序后端服务）的自动化构建和持续部署。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/container-application-devops-for-ack-cluster/README.md
-  Icon: https://img.alicdn.com/tfs/TB1BycYyKH2gK0jSZJnXXaT1FXa-1372-880.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/container-application-devops-for-ack-cluster/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -975,7 +975,7 @@ create-ddh-and-deploy-cloud-server:
     en: 介绍本地部署或托管在IDC环境的 VMware系统迁移上云至独立宿主机（DDH）的最佳实践。使用DDH在云端构建由独享物理服务器组成的资源池，同时配合ECS成熟稳定的虚拟化技术体系，充分利用云上资源弹性、按使用付费的优势，快速构建高性能、高可靠和可快速动态伸缩的虚拟化系统，满足安全、合规、自定义部署、自带许可证（BYOL）等企业级需求；此模板完成创建DDH并部署云服务器。
     zh-cn: 介绍本地部署或托管在IDC环境的 VMware系统迁移上云至独立宿主机（DDH）的最佳实践。使用DDH在云端构建由独享物理服务器组成的资源池，同时配合ECS成熟稳定的虚拟化技术体系，充分利用云上资源弹性、按使用付费的优势，快速构建高性能、高可靠和可快速动态伸缩的虚拟化系统，满足安全、合规、自定义部署、自带许可证（BYOL）等企业级需求；此模板完成创建DDH并部署云服务器。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/create-ddh-and-deploy-cloud-server/README.md
-  Icon: https://img.alicdn.com/tfs/TB18fZZyKH2gK0jSZJnXXaT1FXa-1202-602.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/create-ddh-and-deploy-cloud-server/icon.png
   Labels:
     ApplicationScenes:
       - 业务上云
@@ -1048,7 +1048,7 @@ cross-the-available-zone-epidemic-control:
       project is realized.
     zh-cn: 本文介绍同城跨区域容灾演练的基本操作步骤，以快速搭建疫情护航应用基础服务为基准。在建立云上稳定性保障的基础上实现了疫情护航项目部署方案。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cross-the-available-zone-epidemic-control/README.md
-  Icon: https://img.alicdn.com/tfs/TB1RHKcHXP7gK0jSZFjXXc5aXXa-1336-1020.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/cross-the-available-zone-epidemic-control/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -1080,7 +1080,7 @@ custom-image-ecs:
       ECS cloud server using a custom image.
     zh-cn: 选择已有VPC、VSWitch、SecurityGroup，使用自定义镜像创建一台预付费/后付费的ECS云服务器。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/custom-image-ecs/README.md
-  Icon: https://img.alicdn.com/imgextra/i4/O1CN0109Avt726MNR2KLaP2_!!6000000007647-2-tps-530-480.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/custom-image-ecs/icon.png
   Labels:
     ApplicationScenes:
       - ISV软件部署
@@ -1105,7 +1105,7 @@ custom-image-ecs-datadisk:
       new VPC and specifying VPC.
     zh-cn: 单实例自定义镜像部署，带数据盘，公网IP可选（支持创建新VPC和指定VPC）。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/custom-image-ecs-datadisk/README.md
-  Icon: https://img.alicdn.com/imgextra/i4/O1CN0109Avt726MNR2KLaP2_!!6000000007647-2-tps-530-480.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/custom-image-ecs-datadisk/icon.png
   Labels:
     ApplicationScenes:
       - ISV软件部署
@@ -1151,7 +1151,7 @@ deploy-high-availability-architecture-to-the-cloud:
     en: 在两个可用区下创建多种资源并组合使用，达到高可用的通用产品上云部署的架构效果。
     zh-cn: 在两个可用区下创建多种资源并组合使用，达到高可用的通用产品上云部署的架构效果。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-high-availability-architecture-to-the-cloud/README.md
-  Icon: https://img.alicdn.com/imgextra/i1/O1CN01neFDty1eNvdPEPFig_!!6000000003860-2-tps-2870-1606.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-high-availability-architecture-to-the-cloud/icon.png
   Labels:
     ApplicationScenes:
       - 云市场
@@ -1182,7 +1182,7 @@ deploy-mysql-based-on-ebs:
       consistency and reliability.
     zh-cn: 通过模板一键搭建支持 EBS ESSD 16K 原子写的 MySQL服务。MySQL DoubleWrite机制是为了确保数据一致性和可靠性而引入的，它先将数据写入临时文件，再写入数据文件，以防止在数据写入过程中发生故障导致数据丢失或损坏。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-mysql-based-on-ebs/README.md
-  Icon: https://img.alicdn.com/imgextra/i2/O1CN01rzgyNZ1ovUtCE0Bgs_!!6000000005287-2-tps-569-548.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-mysql-based-on-ebs/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -1208,7 +1208,7 @@ deploy-nginx-services-through-ingress:
       and customize network and security settings.
     zh-cn: 创建Kubernetes集群，配置Ingress与Nginx，启用监控，自定义网络与安全设置。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-nginx-services-through-ingress/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-nginx-services-through-ingress/icon.jpg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-nginx-services-through-ingress/icon.png
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -1231,7 +1231,7 @@ deploy-small-architecture-to-the-cloud:
     en: 单个可用区下创建资源并组合使用，达到小型的通用产品上云部署的架构效果。
     zh-cn: 单个可用区下创建资源并组合使用，达到小型的通用产品上云部署的架构效果。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-small-architecture-to-the-cloud/README.md
-  Icon: https://img.alicdn.com/tfs/TB16dELyQT2gK0jSZPcXXcKkpXa-852-856.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-small-architecture-to-the-cloud/icon.png
   Labels:
     ApplicationScenes:
       - 云市场
@@ -1261,7 +1261,7 @@ deploy-the-rds-environment:
     en: 在以往的数据库异地备份方案中，往往采用本地备份压缩后上传异地的方式来做，不便于整个备份集的管理，对于历史备份数据，随着时间间隔的增大，被查询的可能性越来越低，一视同仁会浪费一定的存储资源。目标：追求经济的数据库的备份方案，低时间成本查询数据集需求。
     zh-cn: 在以往的数据库异地备份方案中，往往采用本地备份压缩后上传异地的方式来做，不便于整个备份集的管理，对于历史备份数据，随着时间间隔的增大，被查询的可能性越来越低，一视同仁会浪费一定的存储资源。目标：追求经济的数据库的备份方案，低时间成本查询数据集需求。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-the-rds-environment/README.md
-  Icon: https://img.alicdn.com/tfs/TB12SwMyUY1gK0jSZFMXXaWcVXa-402-461.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/deploy-the-rds-environment/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -1286,7 +1286,7 @@ discover-and-reach-high-value-users:
       dates and threshold values.
     zh-cn: 创建PAI训练与推理任务，处理OSS数据，输出人群圈选结果至指定路径，支持配置开始/结束日期与阈值。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/discover-and-reach-high-value-users/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/discover-and-reach-high-value-users/icon.jpg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/discover-and-reach-high-value-users/icon.png
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -1305,7 +1305,7 @@ django-on-ecs:
     en: Deploy the Django environment.
     zh-cn: 部署Django环境。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/django-on-ecs/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/django-on-ecs/icon.svg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/django-on-ecs/icon.png
   Labels:
     ApplicationScenes:
       - 网站
@@ -1502,7 +1502,7 @@ ecs-a-record:
     en: Create an ECS with an A-record domain name
     zh-cn: 创建绑定A记录域名的ECS
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-a-record/README.md
-  Icon: https://img.alicdn.com/tfs/TB1Ys2zPlr0gK0jSZFnXXbRRXXa-538-354.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-a-record/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -1527,7 +1527,7 @@ ecs-bind-mult-eni-and-eip:
       elastic public networ
     zh-cn: 此模板主要实现创建ECS并绑定多个弹性网卡，绑定弹性网卡的个数需要由ECS的规格具体决定，每个弹性网卡支持绑定多个弹性公网IP。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-bind-mult-eni-and-eip/README.md
-  Icon: https://img.alicdn.com/tfs/TB1q4Nv2pP7gK0jSZFjXXc5aXXa-730-413.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-bind-mult-eni-and-eip/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -1567,7 +1567,7 @@ ecs-instance-group-vpc:
       and security group, the user only needs the imageId
     zh-cn: 一组相同配置的ecs实例，同属一个VPC和安全组，用户只需要imageId
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-instance-group-vpc/README.md
-  Icon: https://img.alicdn.com/tfs/TB1SZPpPoY1gK0jSZFMXXaWcVXa-442-346.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-instance-group-vpc/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -1612,7 +1612,7 @@ ecs-ipv6-instance:
       public address to the cloud host.
     zh-cn: 创建一台具备IPV4/IPV6双栈的云服务器，并为云主机自动分配IPv6公网地址。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-ipv6-instance/README.md
-  Icon: https://img.alicdn.com/tfs/TB1bVm1T1H2gK0jSZJnXXaT1FXa-762-508.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-ipv6-instance/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -1666,7 +1666,7 @@ ecs-kubernetes-cluster:
       Master instance, 6443 port service and ECS access of switch
     zh-cn: 使用ECS搭建Kubernetes集群，两个EIP分别作用于Master实例 ssh服务、6443端口服务和交换机下ECS的外网访问
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-kubernetes-cluster/README.md
-  Icon: https://img.alicdn.com/imgextra/i1/O1CN01flPuz71HDdT7XLbtW_!!6000000000724-2-tps-1628-1194.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-kubernetes-cluster/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -1697,7 +1697,7 @@ ecs-multi-dynamic-ip:
     en: Create an ECS that is bound to multiple private addresses
     zh-cn: 创建绑定了多个私网地址的ECS
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-multi-dynamic-ip/README.md
-  Icon: https://img.alicdn.com/tfs/TB16mDkgaNj0u4jSZFyXXXgMVXa-948-611.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ecs-multi-dynamic-ip/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -1806,7 +1806,7 @@ ehpc-industrial-simulation:
     en: 本实践适用于使用弹性高性能计算EHPC+对象存储OSS运行仿真软件进行模型仿真的场景中，这里运行的是LAMMPS这款开源的仿真软件，数据通过OSS上传。
     zh-cn: 本实践适用于使用弹性高性能计算EHPC+对象存储OSS运行仿真软件进行模型仿真的场景中，这里运行的是LAMMPS这款开源的仿真软件，数据通过OSS上传。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ehpc-industrial-simulation/README.md
-  Icon: https://img.alicdn.com/tfs/TB1qjA1XNvbeK8jSZPfXXariXXa-620-506.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ehpc-industrial-simulation/icon.png
   Labels:
     ApplicationScenes:
       - 高性能计算
@@ -1865,7 +1865,7 @@ elastic-ha-architecture-to-the-cloud:
     en: 利用弹性伸缩组和阿里自研云数据库POLARDB，在两个可用区下创建多种资源并组合使用，达到高可用并具备弹性的通用产品上云部署的架构效果。
     zh-cn: 利用弹性伸缩组和阿里自研云数据库POLARDB，在两个可用区下创建多种资源并组合使用，达到高可用并具备弹性的通用产品上云部署的架构效果。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/elastic-ha-architecture-to-the-cloud/README.md
-  Icon: https://img.alicdn.com/tfs/TB1JVwJyHr1gK0jSZR0XXbP8XXa-883-612.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/elastic-ha-architecture-to-the-cloud/icon.png
   Labels:
     ApplicationScenes:
       - 云市场
@@ -1999,7 +1999,7 @@ enterprise-multi-account-identity-authority-centralized-management:
       ones, along with configuration for SAML single sign-on.
     zh-cn: 创建企业多账号资源夹与身份权限管理，支持新账号创建与现有账号集成，配置SAML单点登录。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/enterprise-multi-account-identity-authority-centralized-management/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/enterprise-multi-account-identity-authority-centralized-management/icon.jpg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/enterprise-multi-account-identity-authority-centralized-management/icon.png
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -2119,7 +2119,7 @@ existing-vpc-cluster-emq:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，基于Centos7部署EMQ X服务集群，在使用ESS弹性伸缩集群时会创建EssRamRole自动授权OOS执行任务将Slave加入/移除集群，EMQ
       X 是一款完全开源，高度可伸缩，高可用的分布式 MQTT 消息服务器，适用于 IoT、M2M 和移动应用程序，可处理千万级别的并发客户端。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-emq/README.md
-  Icon: https://img.alicdn.com/imgextra/i2/O1CN01DoKkwc292AkJDzKtk_!!6000000008009-2-tps-727-404.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-emq/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -2150,7 +2150,7 @@ existing-vpc-cluster-flink:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建多台ECS(Flink)，其中一台绑定弹性IP作为管理节点，其他节点使用弹性伸缩进行管理；Java
       jdk版本是1.8.0，Flink版本是1.10.2，访问UI界面需要安全组配置8081端口入规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-flink/README.md
-  Icon: https://img.alicdn.com/imgextra/i4/O1CN01DKsHNq1cG1OSxo4K9_!!6000000003572-2-tps-845-630.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-flink/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -2182,7 +2182,7 @@ existing-vpc-cluster-hdfs:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建多台ECS(Hadoop HDFS)，其中一台绑定弹性IP作为管理节点，其他节点使用弹性伸缩进行管理；Java
       jdk版本是1.8.0，Hadoop版本是2.7.7，访问管理界面需要安全组配置50070端口入规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-hdfs/README.md
-  Icon: https://img.alicdn.com/imgextra/i3/O1CN018ytZHe1wigUlzNcmq_!!6000000006342-2-tps-942-657.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-hdfs/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -2249,7 +2249,7 @@ existing-vpc-cluster-kafka:
       jdk版本采用1.8.0，Scala版本采用2.12，Kafka版本采用0.10.2.2；应用数据存放至挂载的数据盘（数据盘挂载目录：/home/software，Kafka
       bin目录：/home/software/kafka/bin）；
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-kafka/README.md
-  Icon: https://img.alicdn.com/imgextra/i2/O1CN01MQsRof1fOfoPeVVvn_!!6000000003997-0-tps-687-528.jpg
+  Icon:  https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-kafka/icon.png
   Labels:
     ApplicationScenes:
       - 中间件
@@ -2377,7 +2377,7 @@ existing-vpc-cluster-storm:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建多台ECS(Storm)，其中一台绑定弹性IP作为管理节点，其他节点使用弹性伸缩进行管理；Java
       jdk版本是1.8.0，Storm版本是2.2.0，Zookeeper版本3.6.2，访问UI界面需要安全组配置允许入方向8081端口。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-storm/README.md
-  Icon: https://img.alicdn.com/imgextra/i3/O1CN01zqVQdX1vXrWUeVMIK_!!6000000006183-2-tps-933-640.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-cluster-storm/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -2469,7 +2469,7 @@ existing-vpc-docker-cluster-etcd:
       algorithm '
     zh-cn: 在Centos7下安装部署集群版Etcd服务（静态发现从节点模式），Etcd是一个用于服务注册与发现的键值存储组件, 其内部采用raft协议作为一致性算法保证数据统一性，集群安装完成后请使用etcdctl命令在云服务器中操作管理集群
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-docker-cluster-etcd/README.md
-  Icon: https://img.alicdn.com/imgextra/i2/O1CN0144r4eb1IAG6XoVwUX_!!6000000000852-2-tps-658-444.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-docker-cluster-etcd/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -2569,7 +2569,7 @@ existing-vpc-docker-single-etcd:
       the Server is installed.
     zh-cn: 单节点在centos7下安装部署Etcd服务，Etcd是一个用于服务注册与发现的键值存储组件, 其内部采用raft协议作为一致性算法保证数据统一性，服务安装完成后请使用etcdctl命令在云服务器中操作管理服务
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-docker-single-etcd/README.md
-  Icon: https://img.alicdn.com/imgextra/i4/O1CN01hi5Lf41rEOEEGrKze_!!6000000005599-2-tps-370-283.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-docker-single-etcd/icon.png
   Labels:
     BasicServices:
       - 容器
@@ -2593,7 +2593,7 @@ existing-vpc-docker-single-harbor:
     zh-cn: 单节点使用Docker容器安装部署Harbor(2.1.0)服务，Harbor是一个企业级私有的容器镜像管理服务，Harbor提供了用户管理，访问控制，活动审计等的特性,
       如需外网访问Harbor Web界面请在安全组添加入方向80访问规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-docker-single-harbor/README.md
-  Icon: https://img.alicdn.com/imgextra/i3/O1CN01SV5iQ81VSf1QiMgRQ_!!6000000002652-2-tps-409-295.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-docker-single-harbor/icon.png
   Labels:
     BasicServices:
       - 容器
@@ -2617,7 +2617,7 @@ existing-vpc-docker-single-rancher:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS服务器，单节点使用Docker容器部署Rancher服务，Rancher是一个开源的企业级多集群Kubernetes管理平台，实现了Kubernetes集群在混合云+本地数据中心的集中部署与管理，以确保集群的安全性，加速企业数字化转型,
       如需外网访问Rancher Web界面请在安全组添加入方向80访问规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-docker-single-rancher/README.md
-  Icon: https://img.alicdn.com/tfs/TB1JnlEZXT7gK0jSZFpXXaTkpXa-756-484.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-docker-single-rancher/icon.png
   Labels:
     BasicServices:
       - 容器
@@ -2678,7 +2678,7 @@ existing-vpc-single-emq:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，基于Centos7单节点部署EMQ X服务，EMQ X 是一款完全开源，高度可伸缩，高可用的分布式
       MQTT 消息服务器，适用于 IoT、M2M 和移动应用程序，可处理千万级别的并发客户端。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-emq/README.md
-  Icon: https://img.alicdn.com/tfs/TB1Gj8.sCR26e4jSZFEXXbwuXXa-389-294.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-emq/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2701,7 +2701,7 @@ existing-vpc-single-flink:
       rules to access the UI i
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS(Flink)并绑定弹性IP；Java jdk版本是1.8.0，Flink版本是1.10.2，访问UI界面需要安全组配置8081端口入规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-flink/README.md
-  Icon: https://img.alicdn.com/imgextra/i1/O1CN01orhxwq1K9v25dvDnU_!!6000000001122-2-tps-656-383.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-flink/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2727,7 +2727,7 @@ existing-vpc-single-hdfs:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS(Hadoop HDFS)并绑定弹性IP；Java jdk版本是1.8.0，Hadoop版本是2.7.7，
       如需外网访问HDFS web界面请在安全组添加入方向50070访问规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-hdfs/README.md
-  Icon: https://img.alicdn.com/imgextra/i3/O1CN01HPtWMz1GINtBcJvs8_!!6000000000599-2-tps-641-423.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-hdfs/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2751,7 +2751,7 @@ existing-vpc-single-hive:
       version is 2.7.7, Hive version 2.3.7, and MySQL driver version 5.1.48.
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS(Hive)并绑定弹性IP；Java jdk版本是1.8.0，Hadoop版本是2.7.7，Hive版本是2.3.7，MySQL驱动版本5.1.48，如需外网访问web界面请在安全组添加入方向10001访问规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-hive/README.md
-  Icon: https://img.alicdn.com/imgextra/i3/O1CN01Ml0otS1CO6N5JhgcJ_!!6000000000070-2-tps-593-405.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-hive/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2800,7 +2800,7 @@ existing-vpc-single-jump-server:
     zh-cn: 在ECS单节点主机上部署JumpServer服务，JumpServer是一个运维安全审计系统，主要用于身份验证、账号管理、授权控制、安全审计等。如需外网访问JumpServer
       Web界面请在安全组添加入方向JumpServerWeb服务端口访问规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-jump-server/README.md
-  Icon: https://img.alicdn.com/tfs/TB1LJo_pjMZ7e4jSZFOXXX7epXa-670-360.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-jump-server/icon.png
   Labels:
     BasicServices:
       - 安全
@@ -2821,7 +2821,7 @@ existing-vpc-single-kafka:
       networks, switches, and security group base resources.
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，一键部署消息中间件Kafka。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-kafka/README.md
-  Icon: https://img.alicdn.com/tfs/TB1WoCTKFP7gK0jSZFjXXc5aXXa-662-519.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-kafka/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2845,7 +2845,7 @@ existing-vpc-single-map-reduce:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS(Hadoop MapReduce)并绑定弹性IP；Java jdk版本是1.8.0，Hadoop版本是2.7.7，如需外网访问MapReduce
       web界面请在安全组添加入方向8088访问规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-map-reduce/README.md
-  Icon: https://img.alicdn.com/imgextra/i3/O1CN01SMI8Nr2351VYUaIrN_!!6000000007203-2-tps-656-426.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-map-reduce/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2868,7 +2868,7 @@ existing-vpc-single-rabbitmq:
       virtual proprietary network, switches, and security group base resources.
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，一键部署消息中间件RabbitMQ。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-rabbitmq/README.md
-  Icon: https://img.alicdn.com/tfs/TB1zII5bk9l0K4jSZFKXXXFjpXa-676-529.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-rabbitmq/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2889,7 +2889,7 @@ existing-vpc-single-spark:
       networks, switches, and security group base resources.
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS(Spark)并绑定弹性IP；Java jdk版本是1.8.0，Hadoop版本是2.7.7，Scala版本是2.12.1，Spark版本是2.1.0，如需外网访问管理web界面请在安全组添加入方向8088和8080访问规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-spark/README.md
-  Icon: https://img.alicdn.com/imgextra/i3/O1CN01tLheNT1tawxf3m1w3_!!6000000005919-2-tps-638-411.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-spark/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2912,7 +2912,7 @@ existing-vpc-single-storm:
       networks, switches, and security group base resources.
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS(Storm)并绑定弹性IP；Java jdk版本是1.8.0，Storm版本是2.2.0，Zookeeper版本3.6.2，访问UI界面需要安全组配置允许入方向8081端口。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-storm/README.md
-  Icon: https://img.alicdn.com/imgextra/i1/O1CN01Klmtu929LrlnTQmpW_!!6000000008052-2-tps-624-405.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-storm/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2936,7 +2936,7 @@ existing-vpc-single-yarn:
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS(Hadoop YARN)并绑定弹性IP；Java jdk版本是1.8.0，Hadoop版本是2.7.7，如需外网访问YARN
       web界面请在安全组添加入方向8088访问规则。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-yarn/README.md
-  Icon: https://img.alicdn.com/imgextra/i2/O1CN0195ahyk1DBZ98QTn49_!!6000000000178-2-tps-632-405.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-yarn/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -2961,7 +2961,7 @@ existing-vpc-single-zookeeper:
       the distributed system management, leader election, configuration management.'
     zh-cn: 在已有虚拟专有网络、交换机和安全组基础资源上，创建一台ECS服务器，并部署Zookeeper（3.6.2）服务，Zookeeper是一个分布式应用的协调服务，用于对分布式系统进行节点管理、leader选举、配置管理等。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-zookeeper/README.md
-  Icon: https://img.alicdn.com/tfs/TB1Rsioh9slXu8jSZFuXXXg7FXa-650-382.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/existing-vpc-single-zookeeper/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -3182,7 +3182,7 @@ games-or-retail-single-db-single-service:
     en: 在创业型公司或阿米巴模式经营的公司，新项目发布初期存在较大的不确定性，既要考虑项目未来的扩展性，又要衡量项目的运营成本。本解决方案为客户提供低成本，敏捷快捷的最佳实践。适用典型行业：游戏、零售等行业。
     zh-cn: 在创业型公司或阿米巴模式经营的公司，新项目发布初期存在较大的不确定性，既要考虑项目未来的扩展性，又要衡量项目的运营成本。本解决方案为客户提供低成本，敏捷快捷的最佳实践。适用典型行业：游戏、零售等行业。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/games-or-retail-single-db-single-service/README.md
-  Icon: https://img.alicdn.com/tfs/TB1yvUNyQL0gK0jSZFxXXXWHVXa-822-892.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/games-or-retail-single-db-single-service/icon.png
   Labels:
     ApplicationScenes:
       - 业务上云
@@ -3417,7 +3417,7 @@ highly-available-web-services:
       automatic configuration synchronization, and is accessible via the public internet.
     zh-cn: 构建高可用Web服务，包含双可用区ECS实例、负载均衡SLB、NAS存储挂载，自动同步配置，支持公网访问。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/highly-available-web-services/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/highly-available-web-services/icon.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/highly-available-web-services/icon.svg
   Labels:
     ApplicationScenes: []
     DeployTypes:
@@ -3645,7 +3645,7 @@ kong-single-instance:
     en: One-click deployment of Kong Gateway app instances.
     zh-cn: 一键部署Kong网关应用实例。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/kong-single-instance/README.md
-  Icon: https://img.alicdn.com/tfs/TB1Ig0iflBh1e4jSZFhXXcC9VXa-590-422.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/kong-single-instance/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -3774,7 +3774,7 @@ light-weight-gpu-deployed-cloud-games:
     en: 随着AI深度学习，视频处理，科学计算以及图形可视化等应用场景的普及，GPU的市场需求越来越大。但单颗物理GPU起步至超大规模弹性计算带来的计算能力过剩成本上升问题也越来越明显。轻量级GPU的诞生打破了传统直通模式的局限，可以提供比单颗物理GPU更细粒度的服务，从而让客户以更低成本、更高弹性开展业务。
     zh-cn: 随着AI深度学习，视频处理，科学计算以及图形可视化等应用场景的普及，GPU的市场需求越来越大。但单颗物理GPU起步至超大规模弹性计算带来的计算能力过剩成本上升问题也越来越明显。轻量级GPU的诞生打破了传统直通模式的局限，可以提供比单颗物理GPU更细粒度的服务，从而让客户以更低成本、更高弹性开展业务。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/light-weight-gpu-deployed-cloud-games/README.md
-  Icon: https://img.alicdn.com/tfs/TB1UWYwbdTfau8jSZFwXXX1mVXa-566-396.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/light-weight-gpu-deployed-cloud-games/icon.png
   Labels:
     ApplicationScenes:
       - 影视娱乐
@@ -3965,7 +3965,7 @@ memcache-instance:
     ja: ApsaraDB for Memcache インスタンスを作成します
     zh-cn: 创建一个云数据库Memcache版实例
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/memcache-instance/README.md
-  Icon: https://img.alicdn.com/tfs/TB1n68Mf79l0K4jSZFKXXXFjpXa-506-371.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/memcache-instance/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -4180,7 +4180,7 @@ move-server-using-custom-mirror:
     zh-cn: 适用需要迁移服务器到阿里云ECS，支持迁移主流Windows和Linux操作系统。包括P2V（Physical to Virtual）代表从物理
       IDC 环境迁移到ECS，和V2V（Virtual to Virtual）代表从虚拟机环境或者云平台主机迁移到ECS；此模板配合搭建带有迁云工具的服务器模板完成服务器搬迁。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/move-server-using-custom-mirror/README.md
-  Icon: https://img.alicdn.com/tfs/TB1NRgubCslXu8jSZFuXXXg7FXa-975-574.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/move-server-using-custom-mirror/icon.png
   Labels:
     ApplicationScenes:
       - 业务上云
@@ -4258,7 +4258,7 @@ multi-avaiable-areas-building-services:
     en: 同地域多可用区网络内搭建服务-对云下有IDC用户，上云建立多地域多可用区高稳定性的业务架构，组建混合云用户都可适用。物理专线是打通IDC到云上内网通道的最高质量和稳定性最好方式，成本高,交付周期长。
     zh-cn: 同地域多可用区网络内搭建服务-对云下有IDC用户，上云建立多地域多可用区高稳定性的业务架构，组建混合云用户都可适用。物理专线是打通IDC到云上内网通道的最高质量和稳定性最好方式，成本高,交付周期长。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/multi-avaiable-areas-building-services/README.md
-  Icon: https://img.alicdn.com/tfs/TB1V0M7OAT2gK0jSZFkXXcIQFXa-730-566.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/multi-avaiable-areas-building-services/icon.png
   Labels:
     ApplicationScenes:
       - 网络组网
@@ -4433,7 +4433,7 @@ new-vpc-single-kafka:
     en: One-click deployment message middleware Kafka.
     zh-cn: 一键部署消息中间件Kafka。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/new-vpc-single-kafka/README.md
-  Icon: https://img.alicdn.com/tfs/TB17swPNVP7gK0jSZFjXXc5aXXa-776-483.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/new-vpc-single-kafka/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -4458,7 +4458,7 @@ new-vpc-single-rabbitmq:
     en: One-click deployment message middleware RabbitMQ.
     zh-cn: 一键部署消息中间件RabbitMQ。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/new-vpc-single-rabbitmq/README.md
-  Icon: https://img.alicdn.com/tfs/TB1lBkZOuH2gK0jSZJnXXaT1FXa-603-488.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/new-vpc-single-rabbitmq/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -4511,7 +4511,7 @@ nodejs-single-instance:
     en: Deploy a Node.js environment and do a test based on a new ECS instance.
     zh-cn: 部署Node.js开发测试环境
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/nodejs-single-instance/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/nodejs-single-instance/icon.jpg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/nodejs-single-instance/icon.png
   Labels:
     ApplicationScenes:
       - 网站
@@ -4649,7 +4649,7 @@ polardb-migration-from-rds:
     en: 解决RDS MySQL或自建MySQL遇到的性能或容量瓶颈，迁移上下PolarDB链路打通。
     zh-cn: 解决RDS MySQL或自建MySQL遇到的性能或容量瓶颈，迁移上下PolarDB链路打通。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/polardb-migration-from-rds/README.md
-  Icon: https://img.alicdn.com/tfs/TB1UEN.aIKfxu4jSZPfXXb3dXXa-1042-532.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/polardb-migration-from-rds/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -4894,7 +4894,7 @@ rds-with-ecs-in-iplist:
     en: ApsaraDB instance + ECS instance + Intranet access
     zh-cn: rds实例 + ecs实例 + 内网可访问
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/rds-with-ecs-in-iplist/README.md
-  Icon: https://img.alicdn.com/tfs/TB1x6iQPuL2gK0jSZPhXXahvXXa-516-430.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/rds-with-ecs-in-iplist/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -4916,7 +4916,7 @@ redis-instance:
     en: Redis instance
     zh-cn: redis实例
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/redis-instance/README.md
-  Icon: https://img.alicdn.com/tfs/TB1VuDbeBFR4u4jSZFPXXanzFXa-444-323.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/redis-instance/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -4939,7 +4939,7 @@ ruby-on-rails-single-instance:
       database for storage
     zh-cn: 基于一个ECS instance 和本地MySQL部署Rails on Ruby
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ruby-on-rails-single-instance/README.md
-  Icon: https://img.alicdn.com/tfs/TB1_N99PBr0gK0jSZFnXXbRRXXa-744-452.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/ruby-on-rails-single-instance/icon.png
   Labels:
     ApplicationScenes:
       - 示例
@@ -4967,7 +4967,7 @@ security-vpc:
       enterprises want to
     zh-cn: 企业在某地域部署了3个VPC，其中VPC_A部署有安全管控服务，3个VPC之间互不相通。出于业务发展和网络环境安全性考虑，企业希望VPC_B和VPC_C之间可以相互通信，且VPC_B和VPC_C之间的访问流量，需先经过VPC_A中的安全管控服务过滤后，再进行通信。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/security-vpc/README.md
-  Icon: https://img.alicdn.com/imgextra/i1/O1CN01Luj7vd1bGeS0QSIl2_!!6000000003438-2-tps-730-369.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/security-vpc/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -5001,7 +5001,7 @@ self-built-elastic-search-snapshot-saved-to-oss:
     zh-cn: 本文介绍如何通过快照的方式，将快照数据安全备份到阿里云OSS存储空间及如何将备份在OSS的快照仓库恢复到阿里云ElasticSearch实例
       。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/self-built-elastic-search-snapshot-saved-to-oss/README.md
-  Icon: https://img.alicdn.com/tfs/TB1IgUJyQL0gK0jSZFAXXcA9pXa-568-512.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/self-built-elastic-search-snapshot-saved-to-oss/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -5106,7 +5106,7 @@ simple-ecs-instance:
       only needs to specify the imageId
     zh-cn: 一个简配的ecs实例，包括一个安全组，一个vpc和一个vSwitch，用户只需要指定imageId
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/simple-ecs-instance/README.md
-  Icon: https://img.alicdn.com/tfs/TB1_dwhdggP7K4jSZFqXXamhVXa-566-337.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/simple-ecs-instance/icon.png
   Labels:
     BasicServices:
       - 弹性计算
@@ -5130,7 +5130,7 @@ simple-high-available-infrastructure:
       this infrastructure through SLB.
     zh-cn: 简单的高可用基础架构，在VPC网络下，创建ECS并加入到一个SLB，同时创建多可用区RDS。外部用户可通过SLB访问应用
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/simple-high-available-infrastructure/README.md
-  Icon: https://img.alicdn.com/tfs/TB1RpGPPpY7gK0jSZKzXXaikpXa-758-470.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/simple-high-available-infrastructure/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -5174,7 +5174,7 @@ simple-windows-instance-with-exchange:
     en: Create a Windows instance of exchange server 2013.
     zh-cn: 创建一个ExchangeServer2013的windows实例
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/simple-windows-instance-with-exchange/README.md
-  Icon: https://img.alicdn.com/tfs/TB1lLQZOxD1gK0jSZFsXXbldVXa-530-437.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/simple-windows-instance-with-exchange/icon.png
   Labels:
     BasicServices:
       - Windows应用服务
@@ -5197,7 +5197,7 @@ simple-windows-instance-with-sharepoint:
     en: Create a Windows instance of SharePoint2013.
     zh-cn: 创建一个SharePoint2013的windows实例
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/simple-windows-instance-with-sharepoint/README.md
-  Icon: https://img.alicdn.com/tfs/TB1pERvfqNj0u4jSZFyXXXgMVXa-455-394.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/simple-windows-instance-with-sharepoint/icon.png
   Labels:
     BasicServices:
       - Windows应用服务
@@ -5220,7 +5220,7 @@ single-available-zone-building-application:
     en: 同地域跨可用区容灾的解决方案2.0，以上海地域为例介绍单可用区到跨可用区的迁移及切换演练，以模拟wordpress为初始化的应用服务，帮助客户更清晰地了解方案架构及演练演示；同时提供跨可用区容灾切换演练实验，初始化服务部署可以使用，此模版完成单可用区应用搭建。
     zh-cn: 同地域跨可用区容灾的解决方案2.0，介绍单可用区到跨可用区的迁移及切换演练，以模拟wordpress为初始化的应用服务，帮助客户更清晰地了解方案架构及演练演示；同时提供跨可用区容灾切换演练实验，初始化服务部署可以使用，此模版完成单可用区应用搭建。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/single-available-zone-building-application/README.md
-  Icon: https://img.alicdn.com/tfs/TB1IwGYcIVl614jSZKPXXaGjpXa-961-830.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/single-available-zone-building-application/icon.png
   Labels:
     ApplicationScenes:
       - 其他
@@ -5325,7 +5325,7 @@ single-website-on-cloud-stand-alone-server:
     en: 对于云上大量中小客户，上云后，由原来的单机服务进行基本的云化部署架构升级，解决弹性伸缩需求，是最基本的场景---部署单机服务
     zh-cn: 对于云上大量中小客户，上云后，由原来的单机服务进行基本的云化部署架构升级，解决弹性伸缩需求，是最基本的场景---部署单机服务
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/single-website-on-cloud-stand-alone-server/README.md
-  Icon: https://img.alicdn.com/tfs/TB1IwKKPpY7gK0jSZKzXXaikpXa-590-411.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/single-website-on-cloud-stand-alone-server/icon.png
   Labels:
     ApplicationScenes:
       - 业务上云
@@ -5459,7 +5459,7 @@ small-vpc-architecture:
       DNAT and SNAT.
     zh-cn: 小型业务VPC网络架构，在VPC网络部署两个子网，所有子网都通过NatGateway对外网提供服务和访问外网
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/small-vpc-architecture/README.md
-  Icon: https://img.alicdn.com/tfs/TB1HIzlPkL0gK0jSZFAXXcA9pXa-1196-558.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/small-vpc-architecture/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -5545,7 +5545,7 @@ spark-hadoop-distributed-env-3-ecs:
       role of the master, and the other 2 instances play role of the worker.
     zh-cn: 基于 3 ECS实例和NAT网关，部署Spark 和 Hadoop分布式环境
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/spark-hadoop-distributed-env-3-ecs/README.md
-  Icon: https://img.alicdn.com/tfs/TB1fGi0PqL7gK0jSZFBXXXZZpXa-1609-849.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/spark-hadoop-distributed-env-3-ecs/icon.png
   Labels:
     ApplicationScenes:
       - 大数据
@@ -5576,7 +5576,7 @@ spark-hadoop-ecs-instance-group:
       and a instance group plays role of worker.
     zh-cn: 基于ECS Group部署Spark 和 Hadoop分布式环境
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/spark-hadoop-ecs-instance-group/README.md
-  Icon: https://img.alicdn.com/tfs/TB1RBS2PAY2gK0jSZFgXXc5OFXa-962-662.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/spark-hadoop-ecs-instance-group/icon.png
   Labels:
     ApplicationScenes:
       - 大数据
@@ -5974,7 +5974,7 @@ upload-to-oss-with-server-signature:
     en: Obtain signature information from the server and upload data to OSS.
     zh-cn: 从服务器获取签名信息并上传数据到OSS。
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/upload-to-oss-with-server-signature/README.md
-  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/upload-to-oss-with-server-signature/icon.svg
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/upload-to-oss-with-server-signature/icon.png
   Labels:
     ApplicationScenes:
       - 网站
@@ -6053,7 +6053,7 @@ vpc-nat-gateway:
       internet and provide service
     zh-cn: 在VPC网络下创建ECS并配置NatGateway使VPC网络中的ECS可访问外网和提供服务
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/vpc-nat-gateway/README.md
-  Icon: https://img.alicdn.com/tfs/TB1jTW9eBFR4u4jSZFPXXanzFXa-933-431.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/vpc-nat-gateway/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -6079,7 +6079,7 @@ vpc-snat:
     en: Special ECS, Bind EIP and create in VPC
     zh-cn: 一键创建SNAT网关，VPC环境下创建一个绑定了EIP的ECS做为SNAT网关
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/vpc-snat/README.md
-  Icon: https://img.alicdn.com/tfs/TB1hHp6e2zO3e4jSZFxXXaP_FXa-821-487.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/vpc-snat/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -6126,7 +6126,7 @@ vpc-vswitch-route-sg-ecs:
     en: One VPC, one VSwitch, one security group, one ECS instance, one custom route
     zh-cn: 一个VPC，一个VSwitch、一个安全组、一个ECS实例 、一条自定义路由
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/vpc-vswitch-route-sg-ecs/README.md
-  Icon: https://img.alicdn.com/tfs/TB187DBOFT7gK0jSZFpXXaTkpXa-568-431.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/vpc-vswitch-route-sg-ecs/icon.png
   Labels:
     BasicServices:
       - 网络
@@ -6174,7 +6174,7 @@ wordpress-cluster:
       to access internet
     zh-cn: 在VPC网络环境下创建wordpress集群，并配置VPC的SNAT功能访问internet
   Detail: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/wordpress-cluster/README.md
-  Icon: https://img.alicdn.com/tfs/TB1GXvaPuL2gK0jSZFmXXc7iXXa-993-658.png
+  Icon: https://raw.githubusercontent.com/aliyun/ros-templates/refs/heads/master/template-infos/wordpress-cluster/icon.png
   Labels:
     ApplicationScenes:
       - 示例
